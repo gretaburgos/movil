@@ -1,0 +1,21 @@
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  .gallery-item {
+    width: calc(33.33% - 16px); /* Tres columnas con espacio entre ellas */
+    margin-bottom: 16px;
+    overflow: hidden;
+    background-color: lightgray;
+  
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
